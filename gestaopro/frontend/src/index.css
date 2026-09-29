@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { -webkit-tap-highlight-color: transparent; }
+body { background: #f8f9ff; color: #0b1c30; overscroll-behavior: none; }
+::-webkit-scrollbar { display: none; }
+.material-symbols-outlined { font-family: 'Material Symbols Outlined'; font-size: 22px; line-height: 1; font-weight: 400; }
+.card { @apply bg-white rounded-xl shadow-sm p-4; }
+.btn-primary { @apply px-4 py-2 rounded-lg bg-primary-container text-white text-xs font-semibold hover:bg-primary transition-colors shadow-sm; }
+.btn-ghost { @apply px-4 py-2 rounded-lg bg-surface-container text-xs font-semibold hover:bg-surface-container-high transition-colors; }
+.input { @apply w-full mt-1 px-3 py-2 rounded-lg bg-surface-container-low text-sm outline-none focus:ring-1 focus:ring-primary-container; }
+.label { @apply block text-[11px] font-semibold text-secondary uppercase; }
